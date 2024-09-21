@@ -1,15 +1,29 @@
-// src/App.js
-import React from 'react';
-import AppointmentForm from './components/AppointmentForm';
-import DoctorDashboard from './components/DoctorDashBoard';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Login from './components/LoginForm';
+import SignUp from './components/SignUpForm';
+import AdminUi from "./components/AdminUi"
+import ProductsList from './components/ProductsList';
+import ProductDetails from './components/ProductDetails';
+import { CartProvider } from './context/CartContext';
+import Cart from './components/Cart';
+import Checkout from './components/Checkout';
 
 function App() {
   return (
-    <div>
-      <h1>Dental Clinic Appointment System</h1>
-      <AppointmentForm />
-      <DoctorDashboard />
-    </div>
+    <CartProvider>
+    <Router>
+      <Routes>
+        <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<SignUp />} />
+        <Route path="/products" element={<ProductsList /> } />
+        <Route path="/products/:id" element={<ProductDetails />} />
+        <Route path="/cart" element={<Cart />} />
+        <Route path="/checkout" element={<Checkout />} />
+
+        <Route path="/admin" element={<AdminUi />} />
+      </Routes>
+    </Router>
+    </CartProvider>
   );
 }
 

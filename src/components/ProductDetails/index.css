@@ -1,0 +1,128 @@
+.product-details-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f4f4f9;
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-image-container {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .product-image {
+    max-width: 80%;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-info {
+    flex: 1.5;
+    padding-left: 30px;
+  }
+  
+  .product-info h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+  }
+  
+  .product-info p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #444;
+  }
+  
+  .quantity-buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .quantity-buttons button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 25px;
+    border: 1px solid #ddd;
+    background-color: #f7f7f7;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color:black;
+  }
+  
+  .quantity-buttons button.active {
+    background-color: #007bff;
+    color: white;
+    border: none;
+  }
+  
+  .quantity-buttons button:hover {
+    background-color: #0056b3;
+    color: white;
+  }
+  
+  .cart-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .cart-controls button {
+    padding: 10px 15px;
+    font-size: 18px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cart-controls button:hover {
+    background-color: #0056b3;
+  }
+  
+  .cart-controls span {
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  button.add-to-cart {
+    padding: 12px 30px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button.add-to-cart:hover {
+    background-color: #218838;
+  }
+  
+  @media (max-width: 768px) {
+    .product-details-container {
+      flex-direction: column;
+    }
+  
+    .product-image-container {
+      margin-bottom: 20px;
+    }
+  
+    .product-info {
+      padding-left: 0;
+    }
+  }
+  

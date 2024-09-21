@@ -1,0 +1,188 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Container for checkout */
+  .checkout-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #1e88e5;
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: 600;
+  }
+  
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+  
+  input {
+    width: calc(50% - 10px);
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+  }
+  
+  input:focus {
+    border-color: #1e88e5;
+    outline: none;
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 14px;
+    background-color: #1e88e5;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #1565c0;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 768px) {
+    form input {
+      width: 100%;
+    }
+  }
+  
+  /* Payment status styling */
+  .payment-success, .payment-failed {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f4ff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .payment-success h3 {
+    color: #4caf50;
+    font-weight: 600;
+    font-size: 22px;
+  }
+  
+  .payment-failed h3 {
+    color: #f44336;
+    font-weight: 600;
+    font-size: 22px;
+  }
+  
+  .payment-success button, .payment-failed button {
+    padding: 10px 20px;
+    background-color: #1e88e5;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  
+  .payment-success button:hover, .payment-failed button:hover {
+    background-color: #1565c0;
+  }
+  
+  /* Order summary styling */
+  .order-summary {
+    background-color: #f7f9fc;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .order-summary ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 10px;
+  }
+  
+  .order-summary li {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+    border-bottom: 1px solid #ececec;
+    font-size: 16px;
+  }
+  
+  .order-summary li:last-child {
+    border-bottom: none;
+  }
+  
+  /* Total amount styling */
+  .total-amount {
+    text-align: right;
+    font-weight: bold;
+    font-size: 20px;
+    color: #f37254;
+    background-color: #fff8f3;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Responsive table for order summary */
+  @media (max-width: 768px) {
+    .order-summary li {
+      font-size: 14px;
+    }
+  
+    .total-amount {
+      font-size: 18px;
+    }
+  }
+  
+  /* Additional button styling for Try Again and Shop Now */
+  button {
+    width: 100%;
+    padding: 14px;
+    background-color: #1e88e5;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #1565c0;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
