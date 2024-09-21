@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/https://github.com/pamarthisaikiran/ecommerce-agri.git/static/css/main.46e42b54.css",
-    "main.js": "/https://github.com/pamarthisaikiran/ecommerce-agri.git/static/js/main.56d31194.js",
-    "static/js/952.1047c48d.chunk.js": "/https://github.com/pamarthisaikiran/ecommerce-agri.git/static/js/952.1047c48d.chunk.js",
-    "static/js/453.68d2f560.chunk.js": "/https://github.com/pamarthisaikiran/ecommerce-agri.git/static/js/453.68d2f560.chunk.js",
-    "index.html": "/https://github.com/pamarthisaikiran/ecommerce-agri.git/index.html",
-    "main.46e42b54.css.map": "/https://github.com/pamarthisaikiran/ecommerce-agri.git/static/css/main.46e42b54.css.map",
-    "main.56d31194.js.map": "/https://github.com/pamarthisaikiran/ecommerce-agri.git/static/js/main.56d31194.js.map",
-    "952.1047c48d.chunk.js.map": "/https://github.com/pamarthisaikiran/ecommerce-agri.git/static/js/952.1047c48d.chunk.js.map",
-    "453.68d2f560.chunk.js.map": "/https://github.com/pamarthisaikiran/ecommerce-agri.git/static/js/453.68d2f560.chunk.js.map"
+    "main.css": "/ecommerce-agri/static/css/main.46e42b54.css",
+    "main.js": "/ecommerce-agri/static/js/main.a2a7b248.js",
+    "static/js/952.1047c48d.chunk.js": "/ecommerce-agri/static/js/952.1047c48d.chunk.js",
+    "static/js/453.68d2f560.chunk.js": "/ecommerce-agri/static/js/453.68d2f560.chunk.js",
+    "index.html": "/ecommerce-agri/index.html",
+    "main.46e42b54.css.map": "/ecommerce-agri/static/css/main.46e42b54.css.map",
+    "main.a2a7b248.js.map": "/ecommerce-agri/static/js/main.a2a7b248.js.map",
+    "952.1047c48d.chunk.js.map": "/ecommerce-agri/static/js/952.1047c48d.chunk.js.map",
+    "453.68d2f560.chunk.js.map": "/ecommerce-agri/static/js/453.68d2f560.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.46e42b54.css",
-    "static/js/main.56d31194.js"
+    "static/js/main.a2a7b248.js"
   ]
 }
